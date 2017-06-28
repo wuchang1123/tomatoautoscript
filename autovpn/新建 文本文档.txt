@@ -1,0 +1,11 @@
+
+http://autoddvpn.googlecode.com/svn/trunk
+
+
+# 把vpnup.sh, vpndown.sh和run.sh上传至jffs/pptp/这个文件夹
+
+
+
+chmod a+x *.sh
+nvram set rc_startup='/jffs/pptp/run.sh'
+nvram commit
